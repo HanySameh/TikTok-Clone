@@ -1,16 +1,38 @@
-# tiktok_clone
+# TikTok Clone
 
-A new Flutter project.
+A Tiktok App- Works on Android & iOS! 
 
-## Getting Started
+## Features
+- Authentication with Email & Password
+- Uploading Videos with Caption
+- Compressing Videos
+- Generating Thumbnails Out of Video
+- Displaying Videos with Caption
+- Liking on Posts
+- Commenting on Posts
+- Liking the Comments
+- Searching Users
+- Following Users
+- Displaying Followers, Following, Likes & Posts of User
+- TikTok Like UI
 
-This project is a starting point for a Flutter application.
+## Installation
+After cloning this repository, migrate to ```TicTok-Clone``` folder. Then, follow the following steps:
+- Create Firebase Project
+- Enable Authentication
+- Make Firestore Rules
+- Create Android & iOS Emulator/Simulator
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  open -a simulator (to get iOS Simulator)
+  flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Used
+**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Client**: Flutter, Provider
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Architecture**: MVC
+
